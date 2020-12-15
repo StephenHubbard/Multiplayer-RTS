@@ -19,8 +19,6 @@ public class BuildingButton : MonoBehaviour, IPointerDownHandler, IPointerUpHand
     private GameObject buildingPreviewInstance;
     private Renderer buildingRendererInstance;
 
-    
-
     private void Start()
     {
         mainCamera = Camera.main;
@@ -59,10 +57,12 @@ public class BuildingButton : MonoBehaviour, IPointerDownHandler, IPointerUpHand
 
         if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, floorMask))
         {
-            // place building
+            player.CmdTryPlaceBuilding(building.GetId(), hit.point);
         }
 
         Destroy(buildingPreviewInstance);
+
+        print("hit");
     }
 
     private void UpdateBuildingPreview()
