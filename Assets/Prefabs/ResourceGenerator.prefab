@@ -96,7 +96,7 @@ PrefabInstance:
     - target: {fileID: 1332852778626729513, guid: 791a4f42fa67a4f4780c4c82043cb263, type: 3}
       propertyPath: aimAtPoint
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 561225533754843762}
     - target: {fileID: 2129669935330776163, guid: 791a4f42fa67a4f4780c4c82043cb263, type: 3}
       propertyPath: m_Center.y
       value: 0.5
@@ -285,5 +285,10 @@ PrefabInstance:
 --- !u!1 &561225533754843759 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7412062538891385954, guid: b52a2198e39a7024ea41ca8cb110d27d, type: 3}
+  m_PrefabInstance: {fileID: 6995550638932229645}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &561225533754843762 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7412062538891385983, guid: b52a2198e39a7024ea41ca8cb110d27d, type: 3}
   m_PrefabInstance: {fileID: 6995550638932229645}
   m_PrefabAsset: {fileID: 0}

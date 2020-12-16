@@ -101,7 +101,7 @@ PrefabInstance:
     - target: {fileID: 1332852778626729513, guid: 791a4f42fa67a4f4780c4c82043cb263, type: 3}
       propertyPath: aimAtPoint
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 7328262203953266508}
     - target: {fileID: 2129669935330776163, guid: 791a4f42fa67a4f4780c4c82043cb263, type: 3}
       propertyPath: m_Center.y
       value: 0.5
@@ -284,6 +284,11 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 1317614137194301742, guid: 3068821261440b74bbe1e563706b17d0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3068821261440b74bbe1e563706b17d0, type: 3}
+--- !u!4 &7328262203953266508 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7096239264837934346, guid: 3068821261440b74bbe1e563706b17d0, type: 3}
+  m_PrefabInstance: {fileID: 561225533754843718}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4984742438526975017
 PrefabInstance:
   m_ObjectHideFlags: 0
