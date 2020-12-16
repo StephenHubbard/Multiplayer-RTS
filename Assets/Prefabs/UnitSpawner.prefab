@@ -98,6 +98,14 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 991816993678590167, guid: 791a4f42fa67a4f4780c4c82043cb263, type: 3}
+      propertyPath: colorRenderers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 991816993678590167, guid: 791a4f42fa67a4f4780c4c82043cb263, type: 3}
+      propertyPath: colorRenderers.Array.data[0]
+      value: 
+      objectReference: {fileID: 2884184667664974015}
     - target: {fileID: 1332852778626729513, guid: 791a4f42fa67a4f4780c4c82043cb263, type: 3}
       propertyPath: aimAtPoint
       value: 
@@ -287,6 +295,11 @@ PrefabInstance:
 --- !u!4 &7328262203953266508 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7096239264837934346, guid: 3068821261440b74bbe1e563706b17d0, type: 3}
+  m_PrefabInstance: {fileID: 561225533754843718}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &2884184667664974015 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3445096531292234489, guid: 3068821261440b74bbe1e563706b17d0, type: 3}
   m_PrefabInstance: {fileID: 561225533754843718}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4984742438526975017
