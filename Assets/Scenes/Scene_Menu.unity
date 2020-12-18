@@ -3245,9 +3245,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1623963245, guid: cc9347affe4093944a1e72474680cfa5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623963246, guid: cc9347affe4093944a1e72474680cfa5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5700893805113067844, guid: cc9347affe4093944a1e72474680cfa5, type: 3}
       propertyPath: m_Name
       value: NetworkManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5700893805113067846, guid: cc9347affe4093944a1e72474680cfa5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5700893805113067848, guid: cc9347affe4093944a1e72474680cfa5, type: 3}
       propertyPath: m_RootOrder

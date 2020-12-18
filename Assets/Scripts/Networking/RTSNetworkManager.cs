@@ -44,7 +44,7 @@ public class RTSNetworkManager : NetworkManager
 
     public void StartGame()
     {
-        if (Players.Count < 2) { return; }
+        if (Players.Count < 1) { return; }
 
         isGameInProgress = true;
 
