@@ -153,6 +153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallUnit
       objectReference: {fileID: 0}
+    - target: {fileID: 2379253429778572756, guid: 72105c258ad434f4b99569c7ebdea29e, type: 3}
+      propertyPath: chaseRange
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2481051072730428070, guid: 72105c258ad434f4b99569c7ebdea29e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 1.4

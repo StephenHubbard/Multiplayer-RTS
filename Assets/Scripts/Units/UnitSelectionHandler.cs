@@ -37,7 +37,6 @@ public class UnitSelectionHandler : MonoBehaviour
 
     private void Update()
     {
-
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
             StartSelectionArea();

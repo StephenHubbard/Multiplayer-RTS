@@ -48,7 +48,7 @@ PrefabInstance:
     - target: {fileID: 822438622791360816, guid: 599407e313cbccb4c8be15d127f75800, type: 3}
       propertyPath: colorRenderers.Array.data[0]
       value: 
-      objectReference: {fileID: 8322498711541225377}
+      objectReference: {fileID: 0}
     - target: {fileID: 1501239464168695758, guid: 599407e313cbccb4c8be15d127f75800, type: 3}
       propertyPath: aimAtPoint
       value: 
@@ -117,6 +117,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5212721870922676022, guid: 599407e313cbccb4c8be15d127f75800, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 5161daf6af29165488ccf61045a0f297, type: 3}
     - target: {fileID: 7890281114095983948, guid: 599407e313cbccb4c8be15d127f75800, type: 3}
       propertyPath: unitPrefab
       value: 
@@ -225,8 +229,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3068821261440b74bbe1e563706b17d0, type: 3}
---- !u!23 &8322498711541225377 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 6988440307485731924, guid: 3068821261440b74bbe1e563706b17d0, type: 3}
-  m_PrefabInstance: {fileID: 1406417300138687477}
-  m_PrefabAsset: {fileID: 0}

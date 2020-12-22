@@ -84,6 +84,10 @@ public class RTSNetworkManager : NetworkManager
                 GameObject baseInstance = Instantiate(unitBasePrefab, GetStartPosition().position, Quaternion.identity);
 
                 NetworkServer.Spawn(baseInstance, player.connectionToClient);
+
+                CameraController cameraController = FindObjectOfType<CameraController>();
+
+                cameraController.SetPlayerCameraStartPos();
             }
         }
     }

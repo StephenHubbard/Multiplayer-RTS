@@ -757,10 +757,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5262549227046521204, guid: f6ba242511d5a694b85732c03bc52087, type: 3}
-      propertyPath: m_Sprite
+    - target: {fileID: 2110363537519975808, guid: f6ba242511d5a694b85732c03bc52087, type: 3}
+      propertyPath: unitSelectionHandler
       value: 
-      objectReference: {fileID: 21300000, guid: 0c3d209db7485d94295b1841bcf7a511, type: 3}
+      objectReference: {fileID: 1954410923}
     - target: {fileID: 6037070535185645290, guid: f6ba242511d5a694b85732c03bc52087, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -809,14 +809,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BuildingsDisplay
       objectReference: {fileID: 0}
-    - target: {fileID: 6260778794131164407, guid: f6ba242511d5a694b85732c03bc52087, type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6260778794131164407, guid: f6ba242511d5a694b85732c03bc52087, type: 3}
-      propertyPath: m_Sprite
+    - target: {fileID: 6896560808434786530, guid: f6ba242511d5a694b85732c03bc52087, type: 3}
+      propertyPath: unitSelectionHandler
       value: 
-      objectReference: {fileID: 21300000, guid: 0c3d209db7485d94295b1841bcf7a511, type: 3}
+      objectReference: {fileID: 1954410923}
+    - target: {fileID: 7142997558882046114, guid: f6ba242511d5a694b85732c03bc52087, type: 3}
+      propertyPath: unitSelectionHandler
+      value: 
+      objectReference: {fileID: 1954410923}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6ba242511d5a694b85732c03bc52087, type: 3}
 --- !u!1 &1135943301

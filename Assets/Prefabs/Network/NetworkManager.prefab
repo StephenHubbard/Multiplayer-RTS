@@ -74,6 +74,7 @@ MonoBehaviour:
   - {fileID: 9071307606329754714, guid: 3b44f9cb7ad99204f85b4e32ffacdaf0, type: 3}
   unitBasePrefab: {fileID: 8417234762500852371, guid: 895844ec20d60504d89ff0aed8218c42, type: 3}
   gameOverHandlerPrefab: {fileID: 8491392518085567574, guid: a120df88d676be54c927e4f182f5acb8, type: 3}
+  cameraController: {fileID: 1090288259574847288, guid: 0f637b4d498f0744c951c9d6bd280c95, type: 3}
 --- !u!114 &5700893805113067846
 MonoBehaviour:
   m_ObjectHideFlags: 0

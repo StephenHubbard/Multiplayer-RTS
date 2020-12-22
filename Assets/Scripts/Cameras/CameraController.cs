@@ -28,6 +28,13 @@ public class CameraController : NetworkBehaviour
         controls.Enable();
     }
 
+    public void SetPlayerCameraStartPos()
+    {
+        UnitBase unitBase = FindObjectOfType<UnitBase>();
+
+        playerCameraTransform.position = new Vector3(unitBase.transform.position.x, 20, unitBase.transform.position.z - 20);
+    }
+
     [ClientCallback]
     private void Update()
     {
