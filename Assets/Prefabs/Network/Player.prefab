@@ -72,7 +72,7 @@ MonoBehaviour:
   - {fileID: 4712043612332505599, guid: d7f4b97ac70c31042874244edd58c873, type: 3}
   - {fileID: 5212721870922676022, guid: 17972e7485545bb41bef769a930093fe, type: 3}
   - {fileID: 4712043612332505599, guid: 3b44f9cb7ad99204f85b4e32ffacdaf0, type: 3}
-  buildingRangeLimit: 5
+  buildingRangeLimit: 10
 --- !u!114 &1090288259574847288
 MonoBehaviour:
   m_ObjectHideFlags: 0

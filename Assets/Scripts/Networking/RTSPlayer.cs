@@ -142,7 +142,6 @@ public class RTSPlayer : NetworkBehaviour
     public void CmdTryPlaceBuilding(int buildingId, Vector3 point)
     {
         Building buildingToPlace = null;
-        print(buildingId);
 
         foreach (Building building in buildings)
         {

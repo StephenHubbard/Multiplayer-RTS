@@ -1929,6 +1929,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1754428434254516391, guid: e26bae16127d85340aed2057167c79ad, type: 3}
+      propertyPath: offset
+      value: -18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1754428434254516391, guid: e26bae16127d85340aed2057167c79ad, type: 3}
       propertyPath: mapScale
       value: 50
       objectReference: {fileID: 0}
