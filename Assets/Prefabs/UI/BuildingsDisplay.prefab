@@ -139,22 +139,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6037070534286446152}
     m_Modifications:
-    - target: {fileID: 190015344934255141, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
-      propertyPath: building
-      value: 
-      objectReference: {fileID: 4712043612332505599, guid: d7f4b97ac70c31042874244edd58c873, type: 3}
     - target: {fileID: 1857042946022878291, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
       propertyPath: m_Name
       value: BuildingSmallUnitSpawner
       objectReference: {fileID: 0}
-    - target: {fileID: 5262549226608520018, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5262549226608520018, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 0c3d209db7485d94295b1841bcf7a511, type: 3}
     - target: {fileID: 7161751438633769488, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
       propertyPath: m_Pivot.x
       value: 1
@@ -370,27 +358,11 @@ PrefabInstance:
     - target: {fileID: 190015344934255141, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
       propertyPath: building
       value: 
-      objectReference: {fileID: 4712043612332505599, guid: 3b44f9cb7ad99204f85b4e32ffacdaf0, type: 3}
-    - target: {fileID: 473365917062357801, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
-      propertyPath: m_text
-      value: 200
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 975597168331392801, guid: c68711b75e83e0249996bb7c19e90cf2, type: 3}
     - target: {fileID: 1857042946022878291, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
       propertyPath: m_Name
       value: BuildingBigUnitSpawner
       objectReference: {fileID: 0}
-    - target: {fileID: 3570304910334746973, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5262549226608520018, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
-      propertyPath: m_Type
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5262549226608520018, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 7161751438633769488, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
       propertyPath: m_Pivot.x
       value: 1

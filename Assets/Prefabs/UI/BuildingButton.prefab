@@ -90,12 +90,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caf369a23e99c1a4c802c044423878de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  building: {fileID: 975597168331392801, guid: c68711b75e83e0249996bb7c19e90cf2, type: 3}
+  building: {fileID: 4712043612332505599, guid: d7f4b97ac70c31042874244edd58c873, type: 3}
   iconImage: {fileID: 5262549226608520018}
   priceText: {fileID: 473365917062357801}
   floorMask:
     serializedVersion: 2
     m_Bits: 4096
+  unitSelectionHandler: {fileID: 0}
 --- !u!1 &2795734285976864573
 GameObject:
   m_ObjectHideFlags: 0
@@ -161,7 +162,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 100
+  m_text: 200
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -295,7 +296,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 0c3d209db7485d94295b1841bcf7a511, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -866,7 +866,7 @@ Transform:
   m_Children:
   - {fileID: 1987136489}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1954410925
 MonoBehaviour:
@@ -884,6 +884,7 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 5121
+  unitMovementArrowAnimation: {fileID: 400449926043845831, guid: 5d4fd87639fae7344aec91e10766c92a, type: 3}
 --- !u!1 &1987136488
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,7 +1071,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8872297225012412495, guid: 14f492a5202626641bb05b964b264502, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8872297225012412495, guid: 14f492a5202626641bb05b964b264502, type: 3}
       propertyPath: m_LocalPosition.x

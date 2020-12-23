@@ -7,6 +7,7 @@ public class UnitCommandGiver : MonoBehaviour
 {
     [SerializeField] private UnitSelectionHandler unitSelectionHandler = null;
     [SerializeField] private LayerMask layerMask = new LayerMask();
+    [SerializeField] private GameObject unitMovementArrowAnimation = null;
 
     private Camera mainCamera;
 
@@ -20,7 +21,6 @@ public class UnitCommandGiver : MonoBehaviour
     private void OnDestroy()
     {
         GameOverHandler.ClientOnGameOver -= ClientHandleGameOver;
-
     }
 
     private void Update()
@@ -44,7 +44,19 @@ public class UnitCommandGiver : MonoBehaviour
         }
 
         TryMove(hit.point);
+
+        MoveUnitAnimation(hit.point);
+
     }
+
+    private void MoveUnitAnimation(Vector3 point)
+    {
+        if (unitSelectionHandler.SelectedUnits.Count >= 1)
+        {
+            GameObject arrowAnimation = Instantiate(unitMovementArrowAnimation, point, Quaternion.identity);
+        }
+    }
+
 
     private void TryMove(Vector3 point)
     {
