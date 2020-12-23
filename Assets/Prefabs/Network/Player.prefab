@@ -91,7 +91,8 @@ MonoBehaviour:
   speed: 25
   screenBorderThickness: 10
   screenXLimits: {x: -45, y: 45}
-  screenZLimits: {x: -55, y: 35}
+  screenZLimits: {x: -100, y: 35}
+  zoomLimits: {x: 10, y: 50}
 --- !u!1 &7831285318100024942
 GameObject:
   m_ObjectHideFlags: 0

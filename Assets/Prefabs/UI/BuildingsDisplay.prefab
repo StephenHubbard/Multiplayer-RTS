@@ -143,6 +143,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: BuildingSmallUnitSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 2363746253299122071, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363746253299122071, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363746253299122071, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363746253299122071, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7161751438633769488, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
       propertyPath: m_Pivot.x
       value: 1
@@ -253,6 +269,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BuildResourceGenerator
       objectReference: {fileID: 0}
+    - target: {fileID: 2363746253299122071, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363746253299122071, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -14
+      objectReference: {fileID: 0}
     - target: {fileID: 5262549226608520018, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -362,6 +386,14 @@ PrefabInstance:
     - target: {fileID: 1857042946022878291, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
       propertyPath: m_Name
       value: BuildingBigUnitSpawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363746253299122071, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363746253299122071, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 7161751438633769488, guid: bd36ec26091de5743975c0aad21dc7eb, type: 3}
       propertyPath: m_Pivot.x

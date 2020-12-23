@@ -11,8 +11,10 @@ public class CameraController : NetworkBehaviour
     [SerializeField] private float screenBorderThickness = 10f;
     [SerializeField] private Vector2 screenXLimits = Vector2.zero;
     [SerializeField] private Vector2 screenZLimits = Vector2.zero;
+    [SerializeField] private Vector2 zoomLimits = Vector2.zero;
 
     private Vector2 previousInput;
+    private Vector2 previousZoomInput;
 
     private Controls controls;
 
@@ -24,6 +26,9 @@ public class CameraController : NetworkBehaviour
 
         controls.Player.MoveCamera.performed += SetPreviousInput;
         controls.Player.MoveCamera.canceled += SetPreviousInput;
+
+        controls.Player.Zoom.performed += SetPreviousZoomInput;
+        controls.Player.Zoom.canceled += SetPreviousZoomInput;
 
         controls.Enable();
     }
@@ -41,6 +46,25 @@ public class CameraController : NetworkBehaviour
         if (!hasAuthority || !Application.isFocused) { return; }
 
         UpdateCameraPosition();
+
+        ZoomInAndOut();
+    }
+
+    private void ZoomInAndOut()
+    {
+        if (previousZoomInput == Vector2.zero) { return; }
+
+        // clamping zooming in and out boundries 
+        //if (previousZoomInput.y < 0 &&) { return; }
+
+        Vector3 pos = playerCameraTransform.position;
+
+        pos += new Vector3(0f, -previousZoomInput.y, previousZoomInput.y) * .5f * Time.deltaTime;
+
+        pos.y = Mathf.Clamp(pos.y, zoomLimits.x, zoomLimits.y);
+
+        playerCameraTransform.position = pos;
+
     }
 
     private void UpdateCameraPosition()
@@ -86,5 +110,10 @@ public class CameraController : NetworkBehaviour
     private void SetPreviousInput(InputAction.CallbackContext ctx)
     {
         previousInput = ctx.ReadValue<Vector2>();
+    }
+
+    private void SetPreviousZoomInput(InputAction.CallbackContext ctx)
+    {
+        previousZoomInput = ctx.ReadValue<Vector2>();
     }
 }
