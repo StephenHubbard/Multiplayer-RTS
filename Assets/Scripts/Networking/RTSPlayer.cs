@@ -63,6 +63,22 @@ public class RTSPlayer : NetworkBehaviour
         return myBuildings;
     }
 
+    public void ShowLegalBuildingPlacement()
+    {
+        foreach (Building building in myBuildings)
+        {
+            building.spriteRenderer.enabled = true;
+        }
+    }
+
+    public void HideLegalBuildingPlacement()
+    {
+        foreach (Building building in myBuildings)
+        {
+            building.spriteRenderer.enabled = false;
+        }
+    }
+
     public bool CanPlaceBuilding(BoxCollider buildingCollider, Vector3 point)
     {
         if (Physics.CheckBox(
@@ -76,8 +92,7 @@ public class RTSPlayer : NetworkBehaviour
 
         foreach (Building building in myBuildings)
         {
-            if ((point - building.transform.position).sqrMagnitude
-                <= buildingRangeLimit * buildingRangeLimit)
+            if ((point - building.transform.position).sqrMagnitude <= buildingRangeLimit * buildingRangeLimit)
             {
                 return true;
             }

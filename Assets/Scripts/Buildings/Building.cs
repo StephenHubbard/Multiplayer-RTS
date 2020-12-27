@@ -10,6 +10,7 @@ public class Building : NetworkBehaviour
     [SerializeField] private Sprite icon = null;
     [SerializeField] private int id = -1;
     [SerializeField] private int price = 100;
+    [SerializeField] public SpriteRenderer spriteRenderer = null;
 
     public static event Action<Building> ServerOnBuildingSpawned;
     public static event Action<Building> ServerOnBuildingDespawned;

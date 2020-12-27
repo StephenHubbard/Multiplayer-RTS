@@ -58,6 +58,8 @@ public class BuildingButton : MonoBehaviour, IPointerDownHandler, IPointerUpHand
         buildingRendererInstance = buildingPreviewInstance.GetComponentInChildren<Renderer>();
 
         buildingPreviewInstance.SetActive(false);
+
+        player.ShowLegalBuildingPlacement();
     }
 
     public void OnPointerUp(PointerEventData eventData)
@@ -74,6 +76,8 @@ public class BuildingButton : MonoBehaviour, IPointerDownHandler, IPointerUpHand
         }
 
         Destroy(buildingPreviewInstance);
+
+        player.HideLegalBuildingPlacement();
     }
 
     private void UpdateBuildingPreview()
