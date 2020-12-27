@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1174670185242973729}
   - component: {fileID: 3570304910334746973}
   - component: {fileID: 190015344934255141}
+  - component: {fileID: 2582957495929726860}
   m_Layer: 0
   m_Name: BuildingButton
   m_TagString: Untagged
@@ -97,6 +98,26 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   unitSelectionHandler: {fileID: 0}
+  animator: {fileID: 2582957495929726860}
+--- !u!95 &2582957495929726860
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857042946022878291}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 358adb5a378149743b2c3b591639bdd9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2795734285976864573
 GameObject:
   m_ObjectHideFlags: 0

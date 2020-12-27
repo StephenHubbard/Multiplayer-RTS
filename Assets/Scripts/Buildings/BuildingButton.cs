@@ -14,6 +14,7 @@ public class BuildingButton : MonoBehaviour, IPointerDownHandler, IPointerUpHand
     [SerializeField] private TMP_Text priceText = null;
     [SerializeField] private LayerMask floorMask = new LayerMask();
     [SerializeField] private UnitSelectionHandler unitSelectionHandler = null;
+    [SerializeField] private Animator animator = null;
 
     private Camera mainCamera;
     private BoxCollider buildingCollider;
@@ -45,7 +46,11 @@ public class BuildingButton : MonoBehaviour, IPointerDownHandler, IPointerUpHand
     {
         if (eventData.button != PointerEventData.InputButton.Left) { return; }
 
-        if (player.GetResources() < building.GetPrice()) { return; }
+        if (player.GetResources() < building.GetPrice())
+        {
+            animator.SetTrigger("NotEnoughResourcesTrigger");
+            return;
+        }
 
         unitSelectionHandler.gameObject.SetActive(false);
 

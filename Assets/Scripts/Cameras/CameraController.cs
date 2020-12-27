@@ -54,9 +54,6 @@ public class CameraController : NetworkBehaviour
     {
         if (previousZoomInput == Vector2.zero) { return; }
 
-        // clamping zooming in and out boundries 
-        //if (previousZoomInput.y < 0 &&) { return; }
-
         Vector3 pos = playerCameraTransform.position;
 
         pos += new Vector3(0f, -previousZoomInput.y, previousZoomInput.y) * .5f * Time.deltaTime;
